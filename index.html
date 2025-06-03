@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    nav a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    header div, header img {
+      width: 48%;
+    }
+    .biodata {
+      text-align: center;
+      padding: 20px;
+    }
+    .biodata h2 {
+      margin-bottom: 10px;
+    }
+    .box-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .box {
+      width: 150px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    .portofolio {
+      text-align: center;
+      padding: 20px;
+    }
+    .projects {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .projects .card {
+      width: 200px;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 80%;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Section 1: Menu -->
+  <nav>
+    <div>Brand</div>
+    <div>
+      <a href="#">Header</a>
+      <a href="#">Biodata</a>
+      <a href="#">Portofolio</a>
+    </div>
+  </nav>
+
+  <!-- Section 2: Judul + Gambar -->
+  <header>
+    <div>
+      <h1>Selamat Datang di Website Saya</h1>
+      <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
+    </div>
+    <div>
+      <img src="Barcelona.jpg" alt="Gambar Profil" width="1000px" height="400">
+    </div>
+  </header>
+  
+  <!-- Section 3: Biodata -->
+  <section class="biodata">
+    <h2>About Me</h2>
+    <p>A brief introduction about myself</p>
+    <div class="box-container">
+      <div class="box">Alfaro Nazareno Sinlae</div>
+      <div class="box">wa:085738635096</div>
+      <div class="box">Education</div>
+      <div class="box">Mahasiswa</div>
+      <div class="box">Football</div>
+      <div class="box">Jalan Kemang V</div>
+    </div>
+  </section>
+
+  <!-- Section 4: Portofolio -->
+  <section class="portofolio">
+    <h2>Portofolio</h2>
+    <div class="projects">
+      <div class="card">
+        <img src="html.pn" alt="Proyek 1" width="350" height="200">
+        <p>Proyek 1<br>Deskripsi proyek 1.</p>
+      </div>
+      <div class="card">
+        <img src="css.jp" alt="Proyek 2" width="350" height="200">
+        <p>Proyek 2<br>Deskripsi proyek 2.</p>
+      </div>
+      <div class="card">
+        <img src="js.jp" alt="Proyek 3" width="350" height="200">
+        <p>Proyek 3<br>Deskripsi proyek 3.</p>
+      </div>
+    </div>
+  </section>
+  
+
+ 
+
+</body>
+</html>
